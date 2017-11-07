@@ -1,7 +1,7 @@
 const Command = require('command')
 module.exports = function HalloweenEveryday(dispatch) {
     const command = Command(dispatch)
-    let halloween = require('./halloween.json') // DB[huntingZoneId]
+    let halloween = require('./halloween.json')
 
     //todo xd
 
